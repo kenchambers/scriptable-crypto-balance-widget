@@ -1,0 +1,27 @@
+{
+  "name": "scriptable-crypto-balance-widget",
+  "version": "1.0.0",
+  "description": "A scriptable widget for checking crypto wallet balance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodefiend/scriptable-crypto-balance-widget.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodefiend/scriptable-crypto-balance-widget/issues"
+  },
+  "homepage": "https://github.com/nodefiend/scriptable-crypto-balance-widget#readme",
+  "engines": {
+    "node": "14.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}
